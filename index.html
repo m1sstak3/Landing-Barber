@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Красота и Здоровье — Барбершоп премиум класса</title>
+    <meta name="description"
+        content="Онлайн-запись на стрижку и моделирование бороды за 30 секунд. Премиальный мужской барбершоп с акцентом на здоровье и эстетику.">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Flatpickr for custom date picker -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/dark.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">BEAUTY&BEARD</a>
+
+            <nav class="nav-links">
+                <a href="#about">О нас</a>
+                <a href="#services">Услуги</a>
+                <a href="#booking">Запись</a>
+                <a href="#reviews">Отзывы</a>
+            </nav>
+
+            <a href="#booking" class="btn btn-primary" style="padding: 0.75rem 1.5rem; font-size: 0.85rem;">Записаться
+                онлайн</a>
+
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+            <span class="hero-subtitle">Эстетика и здоровье</span>
+            <h1>Идеальный образ начинается здесь</h1>
+            <p>Онлайн-запись на мужскую стрижку и профессиональное моделирование бороды всего за 30 секунд. Ценим ваше
+                время: без очередей и ожиданий.</p>
+            <a href="#booking" class="btn btn-primary">Записаться онлайн</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-grid">
+            <div class="about-image">
+                <img src="about-img.jpg" alt="Мастер барбершопа за работой">
+                <div class="about-image-overlay"></div>
+            </div>
+
+            <div class="about-text">
+                <h2>Искусство мужского стиля</h2>
+                <p>Мы — больше, чем просто парикмахерская. Мы создаем пространство, где классические традиции ухода
+                    сочетаются с современным пониманием мужской красоты, здоровья кожи и волос.</p>
+
+                <div class="about-features">
+                    <div class="feature-item">
+                        <i class="fas fa-clock feature-icon"></i>
+                        <div>
+                            <h4>Экономим время</h4>
+                            <p style="font-size: 0.9rem;">Четкая запись без сдвигов по графику</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-spa feature-icon"></i>
+                        <div>
+                            <h4>Забота о здоровье</h4>
+                            <p style="font-size: 0.9rem;">Применяем щадящую косметику премиум сегмента</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-cut feature-icon"></i>
+                        <div>
+                            <h4>Профессионалы</h4>
+                            <p style="font-size: 0.9rem;">Мастера с опытом от 5 лет</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-coffee feature-icon"></i>
+                        <div>
+                            <h4>Высокий сервис</h4>
+                            <p style="font-size: 0.9rem;">Напитки, комфорт и уютная зона отдыха</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <p style="text-align: center; max-width: 600px; margin: 0 auto;">Исключительное качество в каждом движении.
+                Прозрачные цены без скрытых платежей.</p>
+
+            <div class="services-grid">
+                <!-- Haircut -->
+                <div class="service-card">
+                    <i class="fas fa-scissors service-icon"></i>
+                    <h3>Мужская стрижка</h3>
+                    <p>Подбор формы с учетом особенностей анатомии и структуры волос. Мытье, сушка, укладка.</p>
+                    <div class="service-price">2500 ₽</div>
+                    <a href="#booking" class="btn btn-outline" style="width: 100%;">Записаться</a>
+                </div>
+
+                <!-- Beard -->
+                <div class="service-card">
+                    <i class="fas fa-razor service-icon"></i>
+                    <h3>Уход за бородой</h3>
+                    <p>Моделирование контуров, распаривание, стрижка и окрашивание бороды (по желанию). Уход маслами.
+                    </p>
+                    <div class="service-price">1500 ₽</div>
+                    <a href="#booking" class="btn btn-outline" style="width: 100%;">Записаться</a>
+                </div>
+
+                <!-- Combo -->
+                <div class="service-card">
+                    <i class="fas fa-user-tie service-icon"></i>
+                    <h3>Стрижка + Борода</h3>
+                    <p>Полный комплекс преображения для идеального внешнего вида. Экономия времени и средств.</p>
+                    <div class="service-price">3500 ₽</div>
+                    <a href="#booking" class="btn btn-primary" style="width: 100%;">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-wrapper">
+
+                <div class="booking-info">
+                    <h3>Забронируйте визит онлайн</h3>
+                    <p>Наша система интегрирована напрямую с календарями мастеров: вы видите только актуальные и
+                        свободные слоты без двойных бронирований.</p>
+
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Запись за 30 секунд</li>
+                        <li><i class="fas fa-check-circle"></i> Мгновенное подтверждение</li>
+                        <li><i class="fas fa-check-circle"></i> Напоминания по SMS</li>
+                        <li><i class="fas fa-check-circle"></i> Без очередей и ожиданий</li>
+                    </ul>
+                </div>
+
+                <div class="booking-form-container">
+                    <form id="booking-form">
+                        <div class="form-group custom-select-wrapper">
+                            <label for="service">Выберите услугу</label>
+                            <div class="custom-select" id="service-select">
+                                <div class="select-selected">— Выбрать —</div>
+                                <div class="select-items select-hide">
+                                    <div data-value="Мужская стрижка — 2500 ₽">Мужская стрижка — 2500 ₽</div>
+                                    <div data-value="Моделирование бороды — 1500 ₽">Моделирование бороды — 1500 ₽</div>
+                                    <div data-value="Комбо: Стрижка + Борода — 3500 ₽">Комбо: Стрижка + Борода — 3500 ₽
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="hidden" name="service" id="service-input" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="booking-date">Дата визита</label>
+                                <input type="text" id="booking-date" name="date" class="form-control"
+                                    placeholder="Выберите дату" required>
+                            </div>
+
+                            <div class="form-group custom-select-wrapper">
+                                <label for="booking-time">Время визита</label>
+                                <div class="custom-select" id="time-select">
+                                    <div class="select-selected">— Выбрать время —</div>
+                                    <div class="select-items select-hide" id="booking-time-items">
+                                        <!-- Options generated by JS -->
+                                    </div>
+                                </div>
+                                <input type="hidden" name="time" id="time-input" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Иван Иванов"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Ваш телефон</label>
+                            <input type="tel" id="phone" name="phone" class="form-control"
+                                placeholder="+7 (999) 000-00-00" required>
+                        </div>
+
+                        <div class="payment-mockup form-group">
+                            <label>
+                                <input type="radio" name="payment" value="card-online" checked>
+                                Оплата картой на месте
+                            </label>
+                            <p style="font-size: 0.8rem; margin-top: 0.5rem; margin-left: 1.5rem;">Функция онлайн-оплаты
+                                будет доступна в следующем обновлении.</p>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Подтвердить
+                            запись</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Success Modal (Hidden by default) -->
+        <div class="modal-overlay" id="success-modal">
+            <div class="modal-content">
+                <i class="fas fa-check-circle modal-icon"></i>
+                <h3>Вы успешно записаны!</h3>
+                <p>Мы отправили подтверждение на ваш номер телефона. Будем рады видеть вас в нашем барбершопе.</p>
+                <button class="btn btn-outline close-modal" id="close-modal">Отлично</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2 class="logo" style="margin-bottom: 0; text-align: left;">BEAUTY&BEARD</h2>
+                    <p>Премиум-барбершоп, где искусство ухода сочетается со стилем и вашим комфортом.</p>
+                </div>
+
+                <div class="footer-list">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#booking">Онлайн-запись</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-list">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li>Москва, ул. Стильная, 10</li>
+                        <li>Ежедневно 10:00 - 22:00</li>
+                        <li><a href="tel:+74950000000">+7 (495) 000-00-00</a></li>
+                        <li><a href="mailto:info@beautyandbeard.ru">info@beautyandbeard.ru</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Beauty&Beard Barbershop. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://npmcdn.com/flatpickr/dist/l10n/ru.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
