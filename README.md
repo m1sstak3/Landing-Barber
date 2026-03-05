@@ -78,7 +78,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone [https://github.com/m1sstak3/barbershop-landing.git](https://github.com/m1sstak3/barbershop-landing.git)
+git clone https://github.com/m1sstak3/barbershop-landing.git
 ```
 2. Откройте файл `index.html` в вашем браузере.
 
