@@ -14,8 +14,6 @@
 
 ## 💻 Визуальный интерфейс
 
-> 💡 **Заметка:** Замени плейсхолдеры ниже на свои скриншоты, прогнанные через Shots.so. Десктопный — в рамке Safari/Chrome, мобильные — в рамке iPhone.
-
 <div align="center">
   <b>🖥 Главный экран (Desktop)</b><br><br>
   <img src="https://github.com/user-attachments/assets/05079afe-0e72-477a-9a7d-f18aa4c00556" width="900" />
